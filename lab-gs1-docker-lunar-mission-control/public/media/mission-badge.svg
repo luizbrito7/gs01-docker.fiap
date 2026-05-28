@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Emblema da missão">
+  <defs><linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f97316"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="#020617"/>
+  <circle cx="256" cy="256" r="178" fill="none" stroke="url(#a)" stroke-width="18"/>
+  <path d="M143 306 C198 206 302 198 373 118 C342 225 416 305 278 385 C262 342 205 322 143 306Z" fill="url(#a)" opacity="0.95"/>
+  <circle cx="240" cy="260" r="38" fill="#020617" opacity="0.86"/>
+  <path d="M92 390 C180 350 312 346 420 382" stroke="#f8fafc" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+</svg>

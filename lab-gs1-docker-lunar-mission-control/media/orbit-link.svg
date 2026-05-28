@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Órbita de comunicação Terra Lua">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+  </defs>
+  <rect width="1000" height="320" rx="38" fill="#020617"/>
+  <circle cx="170" cy="160" r="84" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="824" cy="160" r="58" fill="#1f2937" stroke="#f97316" stroke-width="3"/>
+  <path d="M250 160 C390 40 590 40 766 160" fill="none" stroke="url(#g)" stroke-width="5" stroke-dasharray="12 14"/>
+  <path d="M250 160 C390 280 590 280 766 160" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.45"/>
+  <text x="170" y="168" text-anchor="middle" fill="#e0f2fe" font-size="32" font-family="Arial" font-weight="800">TERRA</text>
+  <text x="824" y="168" text-anchor="middle" fill="#fed7aa" font-size="26" font-family="Arial" font-weight="800">LUA</text>
+  <text x="500" y="102" text-anchor="middle" fill="#f8fafc" font-size="24" font-family="Arial" font-weight="700">Comunicação • GPS • Dados</text>
+</svg>

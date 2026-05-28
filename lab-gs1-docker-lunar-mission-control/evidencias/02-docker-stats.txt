@@ -1,0 +1,5 @@
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O         PIDS
+404429a1c97d   lunar-mysql   0.23%     186.6MiB / 512MiB   36.44%    19.2kB / 4.15kB   5.75MB / 9.68MB   37
+c9366d3d4b63   lunar-nginx   0.02%     7.758MiB / 64MiB    12.12%    172kB / 131kB     0B / 0B           9
+1a2231928621   lunar-app     0.11%     47.21MiB / 256MiB   18.44%    227kB / 129kB     0B / 0B           22
+fd70904a4dc0   lunar-redis   0.30%     3.949MiB / 128MiB   3.09%     108kB / 30.3kB    65.5kB / 1.1MB    6

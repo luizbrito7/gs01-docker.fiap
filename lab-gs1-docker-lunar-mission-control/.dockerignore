@@ -1,0 +1,23 @@
+# Dependências e logs locais (reinstalados via npm ci dentro do build)
+node_modules
+npm-debug.log
+*.log
+
+# Arquivos de infra/doc que não precisam entrar no contexto de build
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+README.md
+
+# Segredos / variáveis de ambiente (nunca vão para a imagem)
+.env
+.env.*
+
+# Artefatos de trabalho, evidências e backups
+backup-original
+evidencias
+coverage
+dist
+build
+tmp

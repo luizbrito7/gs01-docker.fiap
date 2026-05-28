@@ -1,0 +1,13 @@
+### docker network ls
+NETWORK ID     NAME             DRIVER    SCOPE
+f89a26772646   lunar_backend    bridge    local
+9c7d811c9e67   lunar_frontend   bridge    local
+
+### docker volume ls
+DRIVER    VOLUME NAME
+local     lunar_media_data
+local     lunar_mysql_data
+local     lunar_redis_data
+
+### app non-root (docker exec lunar-app id)
+uid=65532(node) gid=65532(node) groups=65532(node)

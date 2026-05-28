@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Base lunar futurista">
+  <defs>
+    <radialGradient id="sun" cx="85%" cy="18%" r="35%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.75"/>
+      <stop offset="45%" stop-color="#f97316" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#dbeafe"/>
+      <stop offset="0.5" stop-color="#64748b"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1">
+      <stop stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#020617"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <circle cx="990" cy="110" r="4" fill="#fff7ed" opacity="0.9"/>
+  <circle cx="160" cy="190" r="3" fill="#e2e8f0" opacity="0.7"/>
+  <circle cx="280" cy="94" r="2" fill="#e2e8f0" opacity="0.6"/>
+  <path d="M0 690 C180 610 352 640 492 610 C665 574 820 610 1200 510 L1200 900 L0 900 Z" fill="url(#moon)" opacity="0.92"/>
+  <path d="M0 710 C180 650 350 680 560 642 C780 602 960 646 1200 570" fill="none" stroke="#f8fafc" stroke-opacity="0.22" stroke-width="2"/>
+  <ellipse cx="270" cy="760" rx="130" ry="26" fill="#020617" opacity="0.25"/>
+  <ellipse cx="760" cy="720" rx="190" ry="34" fill="#020617" opacity="0.23"/>
+  <g transform="translate(218 488)">
+    <rect x="0" y="112" width="238" height="92" rx="18" fill="#0f172a" stroke="#94a3b8" stroke-opacity="0.45"/>
+    <rect x="28" y="72" width="90" height="76" rx="20" fill="#111827" stroke="#f97316" stroke-opacity="0.55"/>
+    <rect x="132" y="48" width="86" height="100" rx="24" fill="#111827" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <path d="M-80 204 H360" stroke="#cbd5e1" stroke-opacity="0.25" stroke-width="4"/>
+    <circle cx="74" cy="112" r="14" fill="url(#orange)"/>
+    <circle cx="174" cy="104" r="10" fill="#22d3ee" opacity="0.85"/>
+    <path d="M245 118 L342 52" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+    <path d="M342 52 L382 52 L382 162" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="382" cy="168" r="14" fill="#f97316"/>
+  </g>
+  <g transform="translate(620 508)">
+    <rect x="0" y="82" width="210" height="120" rx="18" fill="#0f172a" stroke="#cbd5e1" stroke-opacity="0.38"/>
+    <rect x="28" y="36" width="72" height="72" rx="12" fill="#172554" stroke="#22d3ee" stroke-opacity="0.55"/>
+    <rect x="114" y="18" width="78" height="90" rx="18" fill="#111827" stroke="#f97316" stroke-opacity="0.45"/>
+    <path d="M214 120 C310 70 384 88 452 22" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="8 9" opacity="0.75"/>
+    <circle cx="460" cy="16" r="10" fill="#22d3ee"/>
+    <circle cx="52" cy="134" r="11" fill="#fbbf24"/>
+    <circle cx="156" cy="130" r="11" fill="#34d399"/>
+  </g>
+  <path d="M80 192 C300 254 474 250 658 190 C808 140 910 120 1130 158" fill="none" stroke="#f97316" stroke-opacity="0.5" stroke-width="2" filter="url(#blur)"/>
+  <path d="M80 192 C300 254 474 250 658 190 C808 140 910 120 1130 158" fill="none" stroke="#f97316" stroke-opacity="0.8" stroke-width="1.2"/>
+</svg>
